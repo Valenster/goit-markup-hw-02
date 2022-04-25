@@ -128,7 +128,8 @@ body{
     color: var(--accent-color);
 }
 
-.button:hover { 
+.button:hover,
+.button:focus { 
     color: var(--accent-color);
     /* СУКА НЕ РОБЕ */
 } 
