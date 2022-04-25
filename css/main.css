@@ -22,7 +22,7 @@ body{
 .logo-part-1, .logo-part-2{
     font-family: 'Raleway';
     font-size: 26px;
-    line-height: 1.94;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -35,8 +35,8 @@ body{
 
 
 .site-nav-list .link{
-    var(--title-text-color;)
-    /* font-family: 'Roboto', sans-serif; */
+    color: var(--title-text-color);
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     letter-spacing: 0.02em;
 }
@@ -46,12 +46,10 @@ body{
     letter-spacing: 0.02em;
 }
 
-.link:hover, .link:focus {
-    color: var(--accent-color);
-}
 
 .link {
     text-decoration: none;
+    
 }
 
 .list{
@@ -70,6 +68,92 @@ body{
     color: #d73a3a;
 }
 
+
+/* Особливості */
+
+.features .title{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.features .text{
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Наша команда */
+
+.team .name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team .position{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+/* Footer */
+
+.address{
+    font-style: normal;
+    line-height: 1.71;
+}
+
+.city{
+    color: #c52c2c;
+}
+
+.address .link{
+    letter-spacing: 0.03em;
+    color: rgba(125, 17, 167, 0.6);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+.button:hover { 
+    color: var(--accent-color);
+    /* СУКА НЕ РОБЕ */
+} 
+
+
+/* ПОРТФОЛІО */
+
 .button{
-    align-items: center ;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+}
+
+.work-exampels .title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.work-exampels .title-text{
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--secondary-text-color);
 }
